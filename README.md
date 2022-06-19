@@ -1,2 +1,2 @@
 # overthewire-bandit
-Commands
+Commands and explanantion
