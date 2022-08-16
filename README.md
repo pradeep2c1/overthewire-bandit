@@ -86,3 +86,12 @@ On printing it using `cat ./-file07`, gives the password for Bandit 5.
 There are quite a large number of directories and then files, in the directory, 'inhere'. So, to find a file of 1033 bytes in size, use the command, `find . -size 1033c`.  
 It gives the file name, with the complete path, which contains the required password.  
 Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+
+---
+## Level 6 --> Level 7
+### Command
+`grep`  
+`find / -user <user> -group <group> -type f`
+### Approach
+As we know the user and group, where the password has been stored, we enter the command `find / -user bandit7 -group bandit6 -type f`, which directly gives the complete address of the file.  
+**Password**: HKBPTKQnIay4Fw76bEy8PVxKEDQRKTzs
