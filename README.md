@@ -77,3 +77,12 @@ So, in order to see the hidden files, use `ls -a` instead, which shows the 'hidd
 ### Approach
 In the directory, 'inhere', there are a total of 10 files, of which -file07, on observing using the command `file ./-file07`, can be observed to be an ASCII text file.  
 On printing it using `cat ./-file07`, gives the password for Bandit 5.
+
+---
+## Level 5 --> Level 6
+### Commands
+`find . -size <x>c`
+### Approach
+There are quite a large number of directories and then files, in the directory, 'inhere'. So, to find a file of 1033 bytes in size, use the command, `find . -size 1033c`.  
+It gives the file name, with the complete path, which contains the required password.  
+Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
